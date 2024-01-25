@@ -14,3 +14,10 @@ const Physics = 70;
 const Bangla = 78;
 
 
+const sumOfResult = (Mathematics + Biology + Chemistry + Physics + Bangla);
+
+const averageMark = (sumOfResult/5).toFixed(2);
+
+console.log("Your average mark " + averageMark);
+
+
