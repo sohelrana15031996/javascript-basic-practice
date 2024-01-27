@@ -7,8 +7,13 @@
 // Output:
 // Print the remainder.
 
-const number =167;
+const number =40;
 
 const remainder = 167%5;
+const Roundnumber = Number.isNaN(56);
+
+let newNumber = Roundnumber;
 
 console.log("Remainder " + remainder);
+console.log(Roundnumber);
+console.log(typeof(Roundnumber));
